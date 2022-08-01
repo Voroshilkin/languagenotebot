@@ -5,13 +5,10 @@ import okhttp3.*;
 import org.voroshilkin.TranslateResult.Translation;
 
 import java.io.IOException;
-import java.net.URLEncoder;
-import java.nio.charset.StandardCharsets;
-import java.util.ArrayList;
 
 public class Translator {
 
-    private static final String KEY = "5850d2e52emshab258172ae27b8fp1a6c7djsnb4b8d192fee4";
+    private static final String KEY = "60e1f78bafmsh377d9f0da9009ccp133596jsnd074191e7c8b";
     private final OkHttpClient client = new OkHttpClient();
     private final ObjectMapper mapper = new ObjectMapper();
 

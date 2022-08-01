@@ -26,6 +26,7 @@ public class NoteBot extends TelegramLongPollingBot {
                     SendMessage errorMessage = createSendMessage(update, "Извините, что-то пошло не так во время перевода :(");
 
                     execute(errorMessage);
+                    return;
                 }
 
                 SendMessage message = createSendMessage(update, result);
@@ -51,6 +52,6 @@ public class NoteBot extends TelegramLongPollingBot {
 
     @Override
     public String getBotToken() {
-        return "";
+        return "5474242708:AAG96d0MGnpdU1kOKsAS1JL5YirUe5tF4UM";
     }
 }
