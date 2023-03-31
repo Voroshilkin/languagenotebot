@@ -8,7 +8,7 @@ import java.io.IOException;
 
 public class Translator {
 
-    private static final String KEY = "60e1f78bafmsh377d9f0da9009ccp133596jsnd074191e7c8b";
+    private static final String KEY = "";
     private final OkHttpClient client = new OkHttpClient();
     private final ObjectMapper mapper = new ObjectMapper();
 
